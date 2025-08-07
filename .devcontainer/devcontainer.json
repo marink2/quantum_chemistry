@@ -2,5 +2,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/conda:1": {}
-  }
+  },
+  "postCreateCommand": "bash .devcontainer/install_psi4.sh"
 }
